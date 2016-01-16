@@ -1,0 +1,95 @@
+@import url("reset.css");
+
+
+/* @group Global */
+
+body {
+	color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+}
+
+a:link,
+a:visited {
+	text-decoration: underline;
+	color: #fff;
+	font-size: 12px;
+}
+
+a:hover,
+a:active {
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+
+em,
+strong {
+	font-weight: bold;
+	font-style: normal;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hidden {
+	height: 0 !important;
+	line-height: 0 !important;
+	overflow: hidden !important;
+	position: absolute !important;
+	text-indent: -100000em !important;
+	width: 0 !important;
+}
+
+.sale span {
+	text-decoration: line-through;
+}
+/* @end Global */
+
+body {
+	background: #33628f url(../images/clouds.jpg) no-repeat center top;
+}
+
+div.body {
+	width: 500px;
+	margin: 0 auto;
+	display: block;
+}
+
+img.logo {
+	display: block;
+	margin: 40px auto;
+	width: 500px;
+}
+
+p {
+	margin-bottom: 2ex;
+	font-size: 14px;
+	line-height: 1.2;
+	text-align: justify;
+	display: block;
+	float: left;
+	width: 600px;
+}
+
+img.cloud {
+	display: block;
+	float: right;
+	margin-left:  40px;
+}
+
+a.button {
+	background: transparent url(../images/button.png) no-repeat center left;
+	clear: both;
+	float: left;
+	display: block;
+	padding: 20px 0 25px 60px;
+/*
+	height: 50px;
+*/
+}
